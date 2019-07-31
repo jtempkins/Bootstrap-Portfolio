@@ -34,6 +34,13 @@ h3 {
   color: #4aaaa5;
 }
 
+h4 {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-weight: 700;
+  color: #ffffff;
+  padding-top: 10px;
+}
+
 h1 {
   padding-bottom: 20px;
   font-size: 30px;
@@ -51,9 +58,14 @@ img {
 }
 
 /* Centered text over portfolio image */
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.textBlockCentered {
+    position: relative;
+    bottom: 60px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    position: relative;
+    text-align: center;
+    height: 50px;
+
+
 }
