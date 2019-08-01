@@ -17,6 +17,7 @@ body {
   max-width: 960px;
   margin: 0 auto;
   clear: both;
+  background: #ffffff;
 }
 
 .portImgContainer {
@@ -45,7 +46,7 @@ h3 {
 
 h4 {
   font-family: Georgia, Times, "Times New Roman", serif;
-  font-weight: 700;
+  font-size: 12pt;
   color: #ffffff;
   padding-top: 10px;
 }
@@ -69,12 +70,12 @@ img {
 /* Centered text over portfolio image */
 .textBlockCentered {
     position: relative;
-    bottom: 60px;
+    bottom: 50px;
     background-color: #4aaaa5;
     color: #ffffff;
     position: relative;
     text-align: center;
-    height: 50px;
+    height: 40px;
 
 
 }
@@ -106,6 +107,7 @@ img {
   text-align: center;
   font-size: 8pt;
   padding-left: -15px;
+  border-top: 4px solid #4aaaa5;
 }
 
 .navbar {
@@ -116,10 +118,6 @@ img {
   padding-bottom:10px;
 }
 
-.horizontal-navigation-bar nav ul li {
-  display: inline-block;
-  margin-right: 40px;
-}
 
 .navbar {
   color: #ffffff;
