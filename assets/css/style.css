@@ -20,6 +20,14 @@ body {
   background: #ffffff;
 }
 
+.navContainer {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  clear: both;
+  background: #616363;
+}
+
 .portImgContainer {
   float: left;
   width: 100%;
@@ -27,6 +35,8 @@ body {
   background: #ffffff;
   margin: 0px, 0px, 0px, 50px;
   padding: 100px, 100px;
+  /* margin: 0px, 50px;
+  padding: 100px; */
 }
 
 h1,
@@ -99,9 +109,9 @@ img {
 .footer {
   position: fixed;
   bottom: 0;
-  width: 100%;
+  width: 97%;
   height: 60px;
-  line-height: 50px;
+  /* line-height: 50px; */
   color: #ffffff;
   background-color: #616363;
   text-align: center;
@@ -111,14 +121,19 @@ img {
 }
 
 .navbar {
-  background-color: #4aaaa5;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #4aaaa5;
   padding-left: 150px;
   border-bottom:2px solid #777777;
   padding-bottom:10px;
 }
 
 
-.navbar {
+.navbar-brand {
+  background-color: #4aaaa5;
   color: #ffffff;
+}
+
+.nav-link {
+  color: #4aaaa5;
 }
