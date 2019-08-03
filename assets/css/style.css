@@ -35,8 +35,6 @@ body {
   background: #ffffff;
   margin: 0px, 0px, 0px, 50px;
   padding: 100px, 100px;
-  /* margin: 0px, 50px;
-  padding: 100px; */
 }
 
 h1,
@@ -109,9 +107,8 @@ img {
 .footer {
   position: fixed;
   bottom: 0;
-  width: 97%;
+  width: 100%;
   height: 60px;
-  /* line-height: 50px; */
   color: #ffffff;
   background-color: #616363;
   text-align: center;
@@ -132,6 +129,9 @@ img {
 .navbar-brand {
   background-color: #4aaaa5;
   color: #ffffff;
+  width: 200px;
+  padding-left: 30px;
+  margin-right: 300px;
 }
 
 .nav-link {
