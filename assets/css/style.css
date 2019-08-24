@@ -87,6 +87,20 @@ img {
 
 
 }
+/* Centered text over linked button image */
+.textBlockButton {
+  position: relative;
+  bottom: 50px;
+  background-color: #4aaaa5;
+  color: #ffffff;
+  position: relative;
+  text-align: center;
+  height: 40px;
+  z-index: 5;
+
+
+}
+
 
 .row {
   display: flex;
